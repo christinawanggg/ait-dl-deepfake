@@ -32,13 +32,13 @@ Finally, we split the data into train and test sets.
 
 **Training data and evaluating results**
 
-During this milestone, we created and initial model. We originally used a CNN model, but our accuracy only ended up being .67 at the highest, which is equivalent to our model just learning to guess an image is fake for all the images. The split between our real and fake data is apprx. 33% to 67%. We adjusted our model to use InvceptionV3 as a base and then added and additional dense layer and dropout layer. We also added augmented data to our training set. With this updated model we were able to achieve .88 accuracy on our test set. Also, our loss was quite small meaning that our predictions wer strong overall. Here is a confusion matric of our predicitons: 
+During this milestone, we created an initial model. We originally used a CNN model, but our accuracy only ended up being .67 at the highest, which is equivalent to our model learning to just guess an image is fake for all the images. The split between our real and fake data is apprx. 33% to 67%. We adjusted our model to use InvceptionV3 as a base and then added an additional dense layer and dropout layer. We also added augmented data to our training set. With this updated model we were able to achieve .88 accuracy on our test set. Also, our loss was quite small meaning that our predictions were strong overall. Here is a confusion matric of our predictions:
 
 <img width="361" alt="Screen Shot 2021-11-18 at 1 45 49 PM" src="https://user-images.githubusercontent.com/60895491/142417858-5ff442cf-78cd-4307-aa2b-45e0cb4d5ab7.png">
 
 <img width="167" alt="Screen Shot 2021-11-18 at 1 46 28 PM" src="https://user-images.githubusercontent.com/60895491/142417952-73570e0c-0bcf-4419-a494-7a8805815ec4.png">
 
-We definitely experienced more false negatives than false positives. While it is not ideal the have any false negatives and false positives, it is better to have more false negatives because that means we are guessing it is fake when it is actually real. As far as we are concerned, this is less damaging than the opposite case. 
+We definitely experienced more false negatives than false positives. While it is not ideal to have any false negatives and false positives, it is better to have more false negatives because that means we are guessing it is fake when it is actually real. As far as we are concerned, this is less damaging than the opposite case.
 
 
 ## References
