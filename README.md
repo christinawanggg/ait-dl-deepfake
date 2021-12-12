@@ -45,4 +45,5 @@ We definitely experienced more false negatives than false positives. While it is
 
 As mentioned in milestone 2, the original data had a ~30-70 split between real and fake data. We felt like this was skewing our model's predictions (as predicting false would yield a 67% chance of being correct). So, we balanced out the data by removing some of the fake data to achieve a 50-50 split. We then refined our model to use a CNN LSTM architecture, which uses InceptionV3, a pre-trained CNN for extracting features in images, combined with an LSTM to allow us to use sequence prediction on multiple frames in a video. We ended up obtaining an accuracy of X and a loss of Y. This means that our model was correctly evaluating the videos, not just taking a random guess. The low loss value indicates that our model is working and making predictions well. 
 
+## References
 
