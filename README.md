@@ -47,4 +47,4 @@ As mentioned in milestone 2, the original data had a ~30-70 split between real a
 
 ## References
 1. Tran, V.-N., Lee, S.-H., Le, H.-S., &amp; Kwon, K.-R. (2021). High performance deepfake video detection on CNN-based with attention target-specific regions and manual distillation extraction. Applied Sciences, 11(16), 7678. https://doi.org/10.3390/app11167678 
-2. Celeb-DF: A large-scale challenging dataset for deepfake ... (n.d.). Retrieved December 12, 2021, from https://openaccess.thecvf.com/content_CVPR_2020/papers/text Li_Celeb-DF_A_Large-Scale_Challenging_Dataset_for_DeepFake_Forensics_CVPR_2020_paper.pdf
+2. Celeb-DF: A large-scale challenging dataset for deepfake ... (n.d.). Retrieved December 12, 2021, from https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Celeb-DF_A_Large-Scale_Challenging_Dataset_for_DeepFake_Forensics_CVPR_2020_paper.pdf
